@@ -1,5 +1,7 @@
-const developmentPaths = document.querySelectorAll('li');
+document.addEventListener('DOMContentLoaded', () => {
+    const developmentPaths = document.querySelectorAll('li');
 
-developmentPaths.forEach(path => {
-    console.log(path.textContent + ' development');
+    developmentPaths.forEach(path => {
+        console.log(path.textContent + ' development');
+    });
 });
